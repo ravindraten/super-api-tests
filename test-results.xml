@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.7330" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-12-18T22:39:31" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Posts" timestamp="2021-12-18T22:39:31" tests="0" file="/Users/ravindra/workspace/Otrium/API/super-api-tests/test/posts.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST" timestamp="2021-12-18T22:39:31" tests="2" file="/Users/ravindra/workspace/Otrium/API/super-api-tests/test/posts.js" time="1.4830" failures="0">
+    <testcase name="Posts POST /posts" time="0.7770" classname="/posts">
+    </testcase>
+    <testcase name="Posts POST posts/:id" time="0.7030" classname="posts/:id">
+    </testcase>
+  </testsuite>
+  <testsuite name="Negative Tests" timestamp="2021-12-18T22:39:33" tests="2" file="/Users/ravindra/workspace/Otrium/API/super-api-tests/test/posts.js" time="1.4740" failures="0">
+    <testcase name="Posts Negative Tests 422 Data validation failed" time="0.7710" classname="422 Data validation failed">
+    </testcase>
+    <testcase name="Posts Negative Tests 401 Authentication failed" time="0.7020" classname="401 Authentication failed">
+    </testcase>
+  </testsuite>
+</testsuites>
